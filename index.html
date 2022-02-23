@@ -10,7 +10,7 @@
     <script src="assets/mdui.min.js"></script>
     <title>Mc Module Studio</title>
 </head>
-<body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink">
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-green mdui-theme-accent-pink mdui-theme-layout-dark">
     <div class="mdui-appbar mdui-appbar-fixed">
         <div class="mdui-toolbar mdui-color-theme">
             <a href="javascript:;" class="mdui-typo-headline">McModule Studio</a>
@@ -18,80 +18,81 @@
             <a href="javascript:window.location.reload();" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '重新载入'}">
                 <i class="mdui-icon material-icons">refresh</i>
             </a>
+            <a href="javascript:window.location.href='https://github.com/McModuleStudio';" class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '重新载入'}">
+              <i class="mdui-icon material-icons">code</i>
+          </a>
         </div>
     </div>
     <div class="mdui-container">
-        <div class="mdui-typo mdui-text-color-indigo">
+      <div class="mdui-tab mdui-tab-centered mdui-text-color-green" mdui-tab>
+        <a href="#Terminator" class="mdui-ripple">CreepyMCTerminator</a>
+        <a href="#czf" class="mdui-ripple">CZFCLient</a>
+        <a href="#lava" class="mdui-ripple">LAVA IS GOING UP!</a>
+      </div>
+      <div id="Terminator" class="mdui-p-a-2">
+        <div class="mdui-row">
+          <div class="mdui-col-xs-4">
+            <div class="mdui-typo-display-1"><b>CMCTerminator</b></div>
+            <div class="mdui-typo-headline">阴间版本终结者</div>
+            <p>CreepyMC Terminator（都市传说Minecraft终结者、阴间版本终结者）是一个通用的Minecraft修改器。可以修改一些旧版本Minecraft的都市传说改版（比如Alpha 1.2.3_03以及著名的ERROR422）让玩家在所谓的阴间版本里获得更多的优势甚至创造模式和使用指令的权限
+              <br><br>
+              该软件正在积极开发中，目前仅供尝鲜使用
+            </p>
+            <button class="mdui-btn mdui-btn-raised mdui-btn-block" disabled>开发中...</button><br>
+            <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-color-green" onClick="window.location.href='https://www.bilibili.com/video/BV13L4y1g7ez';">演示视频</button>
+          </div>
+          <div class="mdui-col-xs-8">
+            <img class="mdui-img-fluid" src="assets/Image/Terminator.png">
+          </div>
+        </div>
+      </div>
+
+      <div id="czf" class="mdui-p-a-2">
+        <div class="mdui-row">
+          <div class="mdui-col-xs-4">
+            <div class="mdui-typo-display-1"><b>CzfClient</b></div>
+            <div class="mdui-typo-headline">CZF黑客客户端</div>
+            <p>CzfClient是一个UNPBased Minecraft黑客客户端，大部分功能可绕过Hypixel服务器，提供了70+作弊模块
+              <br><br>
+              该客户端已经停止开发并且已经开源
+            </p>
+            <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-color-green" onClick="window.location.href='https://czfclient.gq';">构建下载</button><br>
+            <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-color-green" onClick="window.location.href='https://github.com/McModuleStudio/czfclient';">开源地址</button>
+          </div>
+          <div class="mdui-col-xs-8">
+            <img class="mdui-img-fluid" src="assets/Image/cheats.png">
+          </div>
+        </div>
+      </div>
+
+      <div id="lava" class="mdui-p-a-2">
+        <div class="mdui-row">
+          <div class="mdui-col-xs-4">
+            <div class="mdui-typo-display-1"><b>LAVA IS GODING UP!</b></div>
+            <div class="mdui-typo-headline">岩浆上升服务器插件</div>
+            <p>LAVA IS GOING UP!岩浆上升服务器插件，在安装这个插件之后即可体验岩浆上升小游戏！
+              <br><br>
+              和朋友一期开心的玩吧！
+            </p>
+            <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-color-green" onClick="window.location.href='https://github.com/McModuleStudio/LavaIsGoingUp/releases';">发行版下载</button><br>
+            <button class="mdui-btn mdui-btn-raised mdui-btn-block mdui-color-green" onClick="window.location.href='https://github.com/McModuleStudio/LavaIsGoingUp';">开源地址</button>
+          </div>
+          <div class="mdui-col-xs-8">
+            <img class="mdui-img-fluid" src="assets/Image/lava.png">
+          </div>
+        </div>
+      </div>
+
+
+
+        <div class="mdui-typo mdui-text-color-green">
             <center>
             <h1><b>McModule Studio</b></h1>
             <h4>#MakeCzfAliveAgain</h4>
             <p>    一个使用<span style="color: rgb(255, 192, 0);">Java</span>、<span style="color: rgb(95, 73, 122);">Kotlin</span>、<span style="color: rgb(0, 176, 80);">C#</span>的Minecraft周边创作工作室<br/></p>
             </br>
-            <h3><b>产品</b></h3>
-            <br>
             </center>
         </div>
-        <center>
-        <div class="mdui-row-xs-3">
-        <center>
-            <div class="mdui-col">
-                <div class="mdui-card">
-                    <div class="mdui-card-media">
-                      <img src="assets/Image/Terminator.png"/>
-                      <div class="mdui-card-media-covered">
-                        <div class="mdui-card-primary">
-                          <div class="mdui-card-primary-title">CMCTerminator</div>
-                          <div class="mdui-card-primary-subtitle">Minecraft阴间版本修改器</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mdui-card-actions">
-                        <!-- https://www.bilibili.com/video/BV13L4y1g7ez -->
-                      <button class="mdui-btn mdui-ripple" disabled>开发中</button>
-                      <button class="mdui-btn mdui-ripple" onClick="javascrtpt:window.location.href='https://www.bilibili.com/video/BV13L4y1g7ez'">演示视频</button>
-                    </div>
-                  </div>
-            </div>
-            <div class="mdui-col">
-                <div class="mdui-card">
-                    <div class="mdui-card-media">
-                      <img src="assets/Image/lava.png"/>
-                      <div class="mdui-card-media-covered">
-                        <div class="mdui-card-primary">
-                          <div class="mdui-card-primary-title" link="https://github.com/McModuleStudio/LavaIsGoingUp/releases">Lava is Going Up</div>
-                          <div class="mdui-card-primary-subtitle">Minecraft岩浆上升服务器插件</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mdui-card-actions">
-                      <button class="mdui-btn mdui-ripple" onClick="javascrtpt:window.location.href='https://github.com/McModuleStudio/LavaIsGoingUp/releases'">构建下载</button>
-                      <button class="mdui-btn mdui-ripple" onClick="javascrtpt:window.location.href='https://github.com/McModuleStudio/LavaIsGoingUp'">开源地址</button>
-                    </div>
-                  </div>
-            </div>
-            <div class="mdui-col">
-                <div class="mdui-card">
-                    <div class="mdui-card-media">
-                      <img src="assets/Image/cheats.png"/>
-                      <div class="mdui-card-media-covered">
-                        <div class="mdui-card-primary">
-                          <div class="mdui-card-primary-title" link="https://github.com/McModuleStudio/LavaIsGoingUp/releases">Czf Client</div>
-                          <div class="mdui-card-primary-subtitle">Minecraft黑客客户端</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="mdui-card-actions">
-                      <button class="mdui-btn mdui-ripple" onClick="javascrtpt:window.location.href='https://czfclient.gq'">构建下载</button>
-                      <button class="mdui-btn mdui-ripple" onClick="javascrtpt:window.location.href='https://github.com/McModuleStudio/czfclient'">开源地址</button>
-                    </div>
-                  </div>
-            </div>
-            </div>
-        </center>
-        <br>
-        <br><br>
-          </div>
-        </center>
     </div>
 </body>
 
